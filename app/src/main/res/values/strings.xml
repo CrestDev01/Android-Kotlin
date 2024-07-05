@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GroceryList</string>
+    <string name="intro_greeting">Let\'s Get started</string>
+    <string name="intro_text_description">Plan and list your GroceryList here.</string>
+    <string name="sign_in_toolbar_text">Sign In</string>
+    <string name="sign_up_toolbar_text">Sign Up</string>
+    <string name="sign_up_greeting_text">Enter your name Email Id and Password to Register with us.</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter a Password</string>
+    <string name="progress_please_wait">Please Wait...</string>
+    <string name="please_click_back_again_exit">Please click back again to exit.</string>
+    <string name="sign_in_greeting_text">Enter your name and email to SignIn with us.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="update_wish">Update wish</string>
+    <string name="add_wish">Add wish</string>
+</resources>

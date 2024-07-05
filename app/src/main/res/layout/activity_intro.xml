@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/single_bubble_background"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/intro_tv_app_name_intro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_40"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="@string/app_name"
+            android:textColor="@color/dark_yellow"
+            android:textSize="@dimen/_40sp" />
+
+        <ImageView
+            android:id="@+id/intro_iv_employee"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200"
+            android:contentDescription="@null"
+            android:src="@drawable/employee_manages_project" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:text="@string/intro_greeting"
+            android:textColor="@color/dark_yellow"
+            android:textSize="@dimen/_25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20"
+            android:layout_marginTop="@dimen/_10"
+            android:fontFamily="@font/nunito_sans_semi_bold"
+            android:gravity="center"
+            android:lineSpacingExtra="@dimen/_5dp"
+            android:text="@string/intro_text_description"
+            android:textColor="@color/dark_yellow"
+            android:textSize="@dimen/_16sp" />
+
+        <Button
+            android:id="@+id/intro_btn_sign_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20"
+            android:layout_marginTop="@dimen/_50"
+            android:background="@drawable/horizontal_two_color_gradient"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:foreground="?attr/selectableItemBackground"
+            android:paddingVertical="@dimen/_8"
+            android:text="@string/sign_in_toolbar_text"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/intro_btn_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20"
+            android:layout_marginTop="@dimen/_15"
+            android:layout_marginBottom="@dimen/_40"
+            android:background="@drawable/thin_border_background"
+            android:fontFamily="@font/nunito_sans_bold"
+            android:foreground="?attr/selectableItemBackground"
+            android:paddingVertical="@dimen/_8"
+            android:text="@string/sign_up_toolbar_text"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_yellow"
+            android:textSize="@dimen/_18sp"
+            app:backgroundTint="@null" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
